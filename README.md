@@ -1,6 +1,6 @@
 # food-models
 
-**This repository contains models that are built using food101 data. The original source of data is [here](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/).**
+**This repository contains models that are built using food101 dataset. The original source of data is [here](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/).**
 
 The projects are:
 
@@ -10,7 +10,7 @@ The projects are:
 
 3. Fast Food Vision 2.0 (`transef-learning-fast-food-vision.ipynb`) - multiclass (10 classes) image classification: the model with the plroblem similar to the previous one, but now it is built using transef learning with further rine-tuning. Tested models are: . The best scored model - .
 
-4. Fast Food Detector (`fast-food-object-detection`) - Object Detection model which is built using TensorFlow Object Detection API and TensorFlow Garden Models.
+4. Fast Food Detector (`fast-food-object-detection.ipynb`) - Object Detection model which is built using TensorFlow Object Detection API and TensorFlow Garden Models.
 
 
 
