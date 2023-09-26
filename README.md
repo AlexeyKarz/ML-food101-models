@@ -1,6 +1,8 @@
 # food-models
 
-**This repository contains models that are built using food101 dataset. The original source of data is [here](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/).**
+**This repository contains models that were built using food101 dataset. The original source of data is [here](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/).**
+
+*Food Vision projects (1,2,3) were built during compleeting the [ZTM course](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main) and modified by me.*
 
 The projects are:
 
