@@ -18,7 +18,7 @@ The projects are:
 
 **Extra:**
 1. `food_helper.py` - the file with some helper functions (visualisation) that I use in other notebooks.
-2. `image_data_modification.ipynb` - the notebook with functions I used to create different subsets of original food101 dataset. The functions are taken from [ZTM course file](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_data_modification.ipynb) and modified for my goals.
+2. `data_extracting.ipynb` - the notebook with functions I used to create different subsets of original food101 dataset. The functions are taken from [ZTM course file](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_data_modification.ipynb) and modified for my goals.
 
 
 
