@@ -1,4 +1,4 @@
-# food-models
+# food-models    <<<IN PROGRESS>>>
 
 **This repository contains models that were built using food101 dataset. The original source of data is [here](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/).**
 
