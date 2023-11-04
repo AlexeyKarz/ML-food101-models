@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import random
+import os
 import numpy as np
 import itertools
 
@@ -113,8 +114,8 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
     
       # set the axes
       ax.set(title = "Confusion matrix",
-             xlabel = "Predicted label"
-             ylabel = "True label"
+             xlabel = "Predicted label",
+             ylabel = "True label",
              xticks = np.arange(n_classes),
              yrange = np.arange(n_classes),
              xticklabels = labels,
@@ -181,6 +182,8 @@ def compare_historys(original_history, new_history, initial_epochs=5):
     plt.title('Training and Validation Loss')
     plt.xlabel('epoch')
     plt.show()
+
+from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 def calculate_results_binary(y_true, y_pred):
   """
