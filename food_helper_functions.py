@@ -103,7 +103,7 @@ def make_confusion_matrix(y_true, y_pred, classes=None, figsize=(10, 10), text_s
   cm = confusion_matrix(y_true, y_pred)
   cm_norm = cm.astype("float") / cm.sum(axis=1)[:, np.newaxis] # normalize
   n_classes = cm.shape[0]
-  fig, ax = plt.subbplots(figsize=figsize)
+  fig, ax = plt.subplots(figsize=figsize)
   cax = ax.matshow(cm, cmap = plt.cm.Blues) # how correct is (darker - better)
   fig.colorbar(cax)
 
