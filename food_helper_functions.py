@@ -5,6 +5,7 @@ import random
 import os
 import numpy as np
 import itertools
+import tensorflow as tf
 
 def view_three_images(target_dir, target_class):
     """
