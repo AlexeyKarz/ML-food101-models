@@ -2,7 +2,9 @@
 
 **This repository contains models that were built using food101 dataset. The original source of data is [here](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/).**
 
-*Food Vision projects (1,2,3) were built during compleeting the [ZTM course](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main) and modified by me.*
+*Fast Food Detector (4) project was made following instruction of different resources. The following ones had the biggest impact:... *
+
+*Food Vision projects (1,2,3) were made during compleeting the guides of [ZTM course](https://github.com/mrdbourke/tensorflow-deep-learning/tree/main). The models used, their architecture, function implementation, chosen classes etc might differ.*
 
 The projects are:
 
@@ -17,8 +19,9 @@ The projects are:
 
 
 **Extra:**
-1. `food_helper.py` - the file with some helper functions (visualisation) that I use in other notebooks.
-2. `data_extracting.ipynb` - the notebook with functions I used to create different subsets of original food101 dataset. The functions are taken from [ZTM course file](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_data_modification.ipynb) and modified for my goals.
+1. `food_vision.pdf` - PDF presentation with outline of all projects based on Food101 dataset that are presented in this repository.
+2. `food_helper_functions.py` - the file with some helper functions (visualisation) that I use in other notebooks. Functions are based on ZTM course.
+3. `data_extracting.ipynb` - the notebook with functions I used to create different subsets of original food101 dataset. The functions are modified versions of [ZTM course file](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_data_modification.ipynb).
 
 
 
