@@ -51,7 +51,7 @@ def pred_plot(model, filename, class_names, scaling=True):
   using the chosen trained model and plots the image with the predicted class
   """
   # make the prediction
-  img = load_process(filename, scale=scaling)
+  img = load_and_process(filename, scale=scaling)
   pred = model.predict(tf.expand_dims(img, axis=0))
 
   if len(pred[0]) > 1: #check whether it is multi-class or binary
