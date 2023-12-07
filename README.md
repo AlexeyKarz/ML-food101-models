@@ -21,7 +21,7 @@
 
 ## Extra:
 1. [`food_vision.pdf`]() - PDF presentation with outline of all projects based on Food101 dataset that are presented in this repository.
-2. [`food_helper_functions.py`]() - the file with some helper functions (visualisation) that I use in other notebooks. Functions are based on ZTM course.
+2. [`food_helper_functions.py`]() - the file with some helper functions (mostly for visualisation) that I use in other notebooks. Functions are based on ZTM course.
 3. [`data_extracting.ipynb`]() - the file with functions I used to create different subsets of original food101 dataset. The functions are modified versions of [ZTM course file](https://github.com/mrdbourke/tensorflow-deep-learning/blob/main/extras/image_data_modification.ipynb).
 
 ##
